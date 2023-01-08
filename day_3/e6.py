@@ -1,0 +1,5 @@
+# Get length and width of a rectangle using prompt. Calculate its area (area = length x width) and perimeter (perimeter = 2 x (length + width))
+length = float(input("Enter length: "))
+width = float(input("Enter side width: "))
+print(f"The area is {length*width}")
+print(f"The perimeter is {2*(length+width)}")
